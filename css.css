@@ -1,0 +1,346 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  font-size: 24px;
+}
+.header__nav {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+.baner__text {
+  font-size: 174px;
+  text-align: center;
+}
+.baner__img {
+  width: 1200px;
+  height: 650px;
+}
+.about {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  order: 1;
+  margin-top: 5%;
+}
+.about__img {
+  order: 2;
+}
+
+li {
+  list-style-type: none;
+}
+.about__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre;
+  font-size: 18px;
+  order: 3;
+}
+
+.projects {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15%;
+  order: 1;
+}
+.projects__img {
+  display: flex;
+}
+.projects__house {
+  width: 450px;
+  height: 250px;
+  padding-right: 20px;
+}
+.projects__church {
+  width: 200px;
+  height: 200px;
+  margin-top: 20%;
+}
+.projects__school {
+  width: 200px;
+  height: 250px;
+  padding-left: 20px;
+}
+
+.projects__text {
+  display: flex;
+
+  font-size: 18px;
+
+  order: 2;
+}
+.projects__info {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  order: 3;
+}
+.projects__infor {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  order: 3;
+}
+.studio {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  order: 1;
+}
+.studio__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre;
+  font-size: 18px;
+  order: 3;
+}
+.studio__img {
+  order: 2;
+}
+
+.news {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.news__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre;
+  font-size: 18px;
+}
+.news__into {
+  font-size: 18px;
+}
+.news__baner {
+  width: 700px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.contact {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.contact__info {
+  display: flex;
+
+  font-size: 18px;
+  white-space: pre;
+}
+
+.contact__into {
+  font-size: 18px;
+}
+.foot {
+  background-color: rgb(173, 173, 173);
+  font-size: 24px;
+}
+.foot__logo {
+  order: 1;
+}
+.foot__info {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  order: 2;
+}
+
+.foot__container {
+  margin: 0 auto;
+  width: 1200px;
+  order: 3;
+}
+.foot__txt {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  margin-top: 2%;
+  order: 4;
+}
+.foot__text {
+  order: 5;
+}
+
+@media (max-width: 430px) {
+  .header {
+  }
+  .baner__text {
+    max-width: 20%;
+    margin-left: 150px;
+    order: 1;
+  }
+  .baner__img {
+    max-width: 900px;
+    max-height: 1000px;
+    margin-left: 150px;
+    order: 3;
+  }
+
+  .about {
+    margin-top: 10%;
+    font-size: 32px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    order: 1;
+  }
+  .about__info {
+    order: 2;
+    font-size: 32px;
+    margin-left: -110px;
+  }
+  .about__img {
+    width: 900px;
+    height: 600px;
+    order: 3;
+  }
+  .projects {
+    font-size: 32px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+  .projects__house {
+    margin-top: 20%;
+    width: 500px;
+    height: 500px;
+  }
+  .projects__church {
+    width: 380px;
+    height: 450px;
+    margin-top: 40%;
+  }
+  .projects__school {
+    display: none;
+  }
+  .projects__txt {
+    display: none;
+  }
+  .projects__text {
+    font-size: 30px;
+  }
+  .projects__info {
+    font-size: 30px;
+  }
+
+  .projects__infor {
+    display: none;
+  }
+
+  .studio {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    margin-left: 150px;
+    padding-top: 5%;
+  }
+  .studio__info {
+    order: 2;
+
+    text-align: right;
+    font-size: 30px;
+    white-space: pre;
+    margin-top: -6%;
+    margin-right: 150px;
+  }
+  .studio__img {
+    order: 3;
+    width: 900px;
+    height: 700px;
+  }
+  .news {
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+  }
+  .news__into {
+    font-size: 30px;
+    white-space: pre;
+    margin-left: -9%;
+  }
+  .news__info {
+    font-size: 30px;
+    white-space: pre;
+    text-align: right;
+    margin-right: 150px;
+    margin-top: -20%;
+  }
+  .news__baner {
+    width: 900px;
+    height: 700px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    margin-left: 150px;
+  }
+  .contact__info {
+    font-size: 30px;
+    margin-top: 2%;
+    white-space: pre;
+    margin-left: -9%;
+  }
+
+  .contact__img {
+    margin-top: 2%;
+    width: 700px;
+    height: 500px;
+  }
+  .foot {
+    width: 1200px;
+    height: 800px;
+  }
+  .foot__logo {
+    margin-left: 150px;
+    font-size: 36px;
+  }
+  .foot__info {
+    display: flex;
+    white-space: pre;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    margin-left: 3%;
+  }
+  .foot__txt {
+    text-align: right;
+    margin-top: -56%;
+    font-size: 36px;
+    margin-right: 150px;
+  }
+  .foot__text {
+    order: 3;
+  }
+}
